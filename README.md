@@ -2,6 +2,8 @@
 
 # 01 - Wordpress
 ````
+git clone https://github.com/falconsoft3d/k8s.git
+cd k8s
 cd 01-wordpress
 kubectl apply -f 00-namespace.yaml
 kubectl get ns
